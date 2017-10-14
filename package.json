@@ -11,6 +11,8 @@
   "dependencies": {
     "chai": "^4.1.2",
     "express": "^4.15.4",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "should": "^13.1.2",
+    "supertest": "^3.0.0"
   }
 }

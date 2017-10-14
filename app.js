@@ -18,3 +18,5 @@ app.get('/guess/:number', function (req, res) {
 app.listen(app.get('port'), function () {
   console.log('NodeJs app listening on port', app.get('port'));
 });
+
+module.exports = app;

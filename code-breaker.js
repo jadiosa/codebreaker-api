@@ -1,4 +1,4 @@
-var NumberToBreak;
+var NumberToBreak = "";
 const ERROR = 'ERROR';
 module.exports = {
   codeBreaker:function(number){

@@ -1,7 +1,7 @@
-const mocha = require('mocha');
-const chai = require('chai');
-const assert = require('assert');
-const CodeBreaker = require('./code-breaker');
+var mocha = require('mocha'),
+    chai = require('chai'),
+    assert = require('assert'),
+    CodeBreaker = require('./code-breaker');
 
 beforeEach(function() {
   CodeBreaker.setSecret('1234');

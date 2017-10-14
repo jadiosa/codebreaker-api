@@ -1,5 +1,5 @@
 var express = require('express');
-const CodeBreaker = require('./code-breaker');
+var CodeBreaker = require('./code-breaker');
 
 var app = express();
 app.set('port', (process.env.PORT || 3000));

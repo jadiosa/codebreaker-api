@@ -1,5 +1,5 @@
 var NumberToBreak = "";
-const ERROR = 'ERROR';
+var ERROR = 'ERROR';
 module.exports = {
   codeBreaker:function(number){
     let resultX = '', result_ = '';

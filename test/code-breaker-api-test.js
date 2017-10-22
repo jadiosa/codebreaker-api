@@ -7,6 +7,7 @@ var supertest = require('supertest'),
 var request = supertest(app)
 var expect = chai.expect;
 
+/*
 describe('GET /setSecret/:number', function() {
 
     it('should return code 200', function(done) {
@@ -93,3 +94,4 @@ describe('GET /guess/:number', function() {
   			    });
     });
 });
+*/

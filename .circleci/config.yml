@@ -38,8 +38,8 @@ jobs:
       - run: npm run coverage
       - run: npm run codacy-coverage
 
-    deployment:
-      staging:
-          branch: master
-          heroku:
-            appname: jadiosa-codebreaker-circle
+deployment:
+  staging:
+      branch: master
+      heroku:
+        appname: jadiosa-codebreaker-circle
